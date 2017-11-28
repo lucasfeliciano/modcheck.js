@@ -14,5 +14,34 @@
     "mocha-jscs": "^4.0.0",
     "mocha-jshint": "^2.2.6",
     "through2": "^2.0.0"
-  }
+  },
+  "name": "modcheck",
+  "description": "A Javascript library to check a UK bank account number against a sort code using [VocaLink's modulus check](https://www.vocalink.com/customer-support/modulus-checking/).",
+  "version": "1.0.0",
+  "main": "src/modcheck.js",
+  "bin": {
+    "modcheck": "build.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasfeliciano/modcheck.js.git"
+  },
+  "keywords": [
+    "bank",
+    "account",
+    "uk",
+    "mod",
+    "validation",
+    "sort",
+    "code"
+  ],
+  "author": "Liam Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasfeliciano/modcheck.js/issues"
+  },
+  "homepage": "https://github.com/lucasfeliciano/modcheck.js#readme"
 }
